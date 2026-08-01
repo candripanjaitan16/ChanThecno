@@ -1,21 +1,5 @@
 <div align="center">
     <img src="public/assets/icon.png" alt="ChanThecno" width="140">
-
-    <h1>ChanThecno</h1>
-
-    <p>
-        <b>Tempat Imajinasi dan Informatika Bertemu</b>
-    </p>
-
-    <p>
-        Platform teknologi yang sedang dikembangkan dari nol.
-    </p>
-
-    <p>
-        <a href="https://chanthecno.vercel.app/">Website</a>
-        ·
-        <a href="https://github.com/candripanjaitan16/ChanThecno">Repository</a>
-    </p>
 </div>
 
 ---
@@ -28,13 +12,13 @@ Saya sering memiliki banyak ide dan membayangkan bagaimana teknologi masa depan 
 
 Dari situlah **ChanThecno** dimulai.
 
-ChanThecno bukanlah sebuah project yang langsung jadi. Project ini merupakan tempat saya:
+ChanThecno bukan project yang langsung jadi. Project ini merupakan tempat saya untuk:
 
 - belajar pemrograman,
 - mencoba teknologi baru,
 - bereksperimen dengan berbagai ide,
 - membangun sesuatu dari nol,
-- dan mendokumentasikan perkembangan saya di dunia teknologi.
+- dan mendokumentasikan perjalanan saya di dunia teknologi.
 
 > **Sebuah ide tidak harus langsung sempurna. Yang penting, mulai dibuat.**
 
@@ -42,24 +26,27 @@ ChanThecno bukanlah sebuah project yang langsung jadi. Project ini merupakan tem
 
 ## 🚀 Apa itu ChanThecno?
 
-**ChanThecno** adalah project teknologi yang saya bangun sebagai langkah awal menuju sebuah platform penyimpanan dan pengelolaan data berbasis cloud.
+**ChanThecno** adalah project teknologi yang saya bangun sebagai langkah awal untuk membuat sebuah platform pengelolaan data dan penyimpanan berbasis cloud.
 
-Konsep yang ingin saya bangun nantinya terinspirasi dari berbagai platform database dan cloud storage modern.
+Konsepnya terinspirasi dari berbagai platform modern yang menyediakan layanan seperti **database, storage, API, dan project management** dalam satu tempat.
 
-Untuk saat ini, ChanThecno masih berada dalam tahap pengembangan dan pembelajaran.
+Namun, ChanThecno masih berada dalam tahap **pengembangan dan pembelajaran**.
 
-Fokus utama saya saat ini adalah membangun fondasi aplikasi terlebih dahulu, mulai dari:
+Saya membangunnya secara bertahap, mulai dari tampilan sederhana hingga nantinya berkembang menjadi sistem yang lebih kompleks.
 
-- Landing page
-- User interface
-- Authentication
-- Dashboard
-- Database
-- API
-- Cloud storage
-- Infrastructure
+### Saat ini saya sedang membangun:
 
-Semua bagian tersebut akan dikembangkan secara bertahap.
+- 🌐 Landing Page
+- 🔐 Authentication
+- 📧 Email Verification & OTP
+- 📊 User Dashboard
+- 🗄️ Database Management
+- 💾 Cloud Storage
+- 🔌 API
+- 📁 Project Management
+- ⚙️ User Settings
+
+Fitur-fitur tersebut akan dikembangkan secara bertahap seiring perjalanan project ini.
 
 ---
 
@@ -69,53 +56,53 @@ Saya ingin ChanThecno menjadi lebih dari sekadar sebuah website.
 
 Project ini adalah **catatan perjalanan belajar saya**.
 
-Setiap fitur yang ditambahkan, setiap bug yang ditemukan, dan setiap kesalahan yang terjadi merupakan bagian dari proses belajar.
+Setiap fitur yang dibuat, bug yang ditemukan, error yang muncul, dan kesalahan yang terjadi merupakan bagian dari proses belajar.
 
-Karena itu, project ini akan terus berubah seiring bertambahnya pengetahuan dan pengalaman saya.
+Karena itu, ChanThecno akan terus berubah seiring bertambahnya pengetahuan dan pengalaman saya.
+
+Saya tidak ingin menunggu sampai semuanya sempurna untuk mulai membangun.
+
+Saya ingin belajar dengan cara **membangunnya langsung**.
 
 ---
 
 ## 🛠️ Teknologi
 
-Teknologi yang saat ini digunakan:
+Teknologi yang digunakan dalam project ini:
 
 | Teknologi | Penggunaan |
 |---|---|
 | **Next.js** | Framework utama aplikasi |
-| **React** | Membangun interface |
-| **TypeScript** | Bahasa pemrograman |
+| **React** | Membangun user interface |
+| **TypeScript** | Pengembangan aplikasi dengan type safety |
 | **Tailwind CSS** | Styling dan layout |
 | **Lucide React** | Icon interface |
-| **React Icons** | Icon brand seperti GitHub |
+| **Resend** | Pengiriman email dan kode OTP |
 | **Git** | Version control |
 | **GitHub** | Repository dan dokumentasi |
-| **Vercel** | Deployment |
+| **Vercel** | Deployment aplikasi |
 
 ---
 
-## 📂 Struktur Project
+## 🔐 Authentication
 
-Struktur project saat ini menggunakan Next.js App Router:
+ChanThecno mulai memiliki sistem authentication untuk mengatur akses pengguna.
+
+Alur yang sedang dikembangkan:
 
 ```text
-ChanThecno/
-├── app/
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-│
-├── components/
-│   ├── Header.tsx
-│   └── Hero.tsx
-│
-├── public/
-│   ├── assets/
-│   │   └── icon.png
-│   │
-│   └── video/
-│       └── bg.mp4
-│
-├── package.json
-├── tsconfig.json
-├── next.config.ts
-└── README.md
+Register
+   │
+   ├── Nama Lengkap
+   ├── Email
+   ├── Verifikasi Email
+   ├── OTP
+   └── Password
+          │
+          ▼
+      Dashboard
+          │
+          ├── Database
+          ├── Storage
+          ├── Projects
+          └── Settings

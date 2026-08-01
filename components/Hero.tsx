@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <>
@@ -29,9 +31,12 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex items-center gap-4">
-            <button className="rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-500">
+            <Link
+              href="/register"
+              className="rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-500"
+            >
               Get Started
-            </button>
+            </Link>
 
             <button className="rounded-xl border border-white/15 bg-white/5 px-6 py-3 font-semibold text-white backdrop-blur-md transition hover:bg-white/10">
               Documentation
