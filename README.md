@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+    <img src="public/assets/icon.png" alt="ChanThecno" width="140">
 
-## Getting Started
+    <h1>ChanThecno</h1>
 
-First, run the development server:
+    <p>
+        <b>Tempat Imajinasi dan Informatika Bertemu</b>
+    </p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    <p>
+        Platform teknologi yang sedang dikembangkan dari nol.
+    </p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    <p>
+        <a href="https://chanthecno.vercel.app/">Website</a>
+        ·
+        <a href="https://github.com/candripanjaitan16/ChanThecno">Repository</a>
+    </p>
+</div>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 👋 Halo, Saya Candri Panjaitan!
 
-## Learn More
+Saya adalah seorang siswa **SMA Kelas 12** yang memiliki ketertarikan besar terhadap dunia **Informatika dan teknologi**.
 
-To learn more about Next.js, take a look at the following resources:
+Saya sering memiliki banyak ide dan membayangkan bagaimana teknologi masa depan dapat dibuat. Daripada hanya menyimpannya di dalam pikiran, saya ingin mencoba mewujudkannya sedikit demi sedikit melalui kode.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Dari situlah **ChanThecno** dimulai.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ChanThecno bukanlah sebuah project yang langsung jadi. Project ini merupakan tempat saya:
 
-## Deploy on Vercel
+- belajar pemrograman,
+- mencoba teknologi baru,
+- bereksperimen dengan berbagai ide,
+- membangun sesuatu dari nol,
+- dan mendokumentasikan perkembangan saya di dunia teknologi.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> **Sebuah ide tidak harus langsung sempurna. Yang penting, mulai dibuat.**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🚀 Apa itu ChanThecno?
+
+**ChanThecno** adalah project teknologi yang saya bangun sebagai langkah awal menuju sebuah platform penyimpanan dan pengelolaan data berbasis cloud.
+
+Konsep yang ingin saya bangun nantinya terinspirasi dari berbagai platform database dan cloud storage modern.
+
+Untuk saat ini, ChanThecno masih berada dalam tahap pengembangan dan pembelajaran.
+
+Fokus utama saya saat ini adalah membangun fondasi aplikasi terlebih dahulu, mulai dari:
+
+- Landing page
+- User interface
+- Authentication
+- Dashboard
+- Database
+- API
+- Cloud storage
+- Infrastructure
+
+Semua bagian tersebut akan dikembangkan secara bertahap.
+
+---
+
+## 🧠 Filosofi
+
+Saya ingin ChanThecno menjadi lebih dari sekadar sebuah website.
+
+Project ini adalah **catatan perjalanan belajar saya**.
+
+Setiap fitur yang ditambahkan, setiap bug yang ditemukan, dan setiap kesalahan yang terjadi merupakan bagian dari proses belajar.
+
+Karena itu, project ini akan terus berubah seiring bertambahnya pengetahuan dan pengalaman saya.
+
+---
+
+## 🛠️ Teknologi
+
+Teknologi yang saat ini digunakan:
+
+| Teknologi | Penggunaan |
+|---|---|
+| **Next.js** | Framework utama aplikasi |
+| **React** | Membangun interface |
+| **TypeScript** | Bahasa pemrograman |
+| **Tailwind CSS** | Styling dan layout |
+| **Lucide React** | Icon interface |
+| **React Icons** | Icon brand seperti GitHub |
+| **Git** | Version control |
+| **GitHub** | Repository dan dokumentasi |
+| **Vercel** | Deployment |
+
+---
+
+## 📂 Struktur Project
+
+Struktur project saat ini menggunakan Next.js App Router:
+
+```text
+ChanThecno/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── Header.tsx
+│   └── Hero.tsx
+│
+├── public/
+│   ├── assets/
+│   │   └── icon.png
+│   │
+│   └── video/
+│       └── bg.mp4
+│
+├── package.json
+├── tsconfig.json
+├── next.config.ts
+└── README.md
