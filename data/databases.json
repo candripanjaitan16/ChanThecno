@@ -1,0 +1,10 @@
+[
+  {
+    "id": "e2228c78-b125-48e7-9530-7ad6eee1b5c2",
+    "name": "Toko Kopi",
+    "engine": "PostgreSQL",
+    "storage": 10,
+    "status": "active",
+    "createdAt": "2026-08-02T01:40:03.679Z"
+  }
+]
