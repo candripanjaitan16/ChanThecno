@@ -220,9 +220,10 @@ export default function DatabasePage() {
         ) : (
           <div className="grid gap-4">
             {databases.map((database) => (
-              <div
+              <button
                 key={database.id}
-                className="rounded-2xl border border-zinc-800 bg-zinc-950 p-5"
+                onClick={() => router.push(`/akun/database/${database.id}`)}
+                className="w-full rounded-2xl border border-zinc-800 bg-zinc-950 p-5 text-left transition hover:border-blue-600 hover:bg-zinc-900"
               >
                 <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
                   <div className="flex items-center gap-4">
@@ -243,7 +244,7 @@ export default function DatabasePage() {
                     {database.status}
                   </span>
                 </div>
-              </div>
+              </button>
             ))}
           </div>
         )}
